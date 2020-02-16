@@ -65,6 +65,15 @@ header {
   color: #E3B873;
 }
 
+.color-brown-underline {
+  color: #E3B873;
+  text-decoration: underline;
+}
+
+.color-gray {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .margin-left {
   margin-left: 67px;
 }
@@ -218,3 +227,31 @@ header {
   text-transform: uppercase;
   color: #E3B873;
 }
+
+.project-params p {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.project-nav {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 45px;
+}
+
+.project-nav a {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-right: auto;
+}
+
