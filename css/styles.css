@@ -303,3 +303,83 @@ header {
   border: none;
   background: url(../images/arrow-right.svg);
 }
+
+.control {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.control-wrapper {
+  width: 817px;
+  margin: 0 auto;
+}
+
+.control-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.control-head h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.control-head hr {
+  border: 0;
+  width: 32px;
+  height: 1.54px;
+  background: #E3B873;
+}
+
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12.79px;
+  margin-bottom: 31.21px;
+}
+
+.camera hr:first-child {
+  margin-right: 9.47px;
+}
+
+.camera hr:last-child {
+  margin-left: 7.76px;
+}
+
+.camera-img {
+  color: #E3B873;
+}
+
+.video {
+  width: 817px;
+  height: 434px;
+}
+
+.video-bg {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/control.jpg");
+}
+
+.video-btn {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #E3B873;
+  color: white;
+  padding: none;
+  border: none;
+  border-radius: 50%;
+}
