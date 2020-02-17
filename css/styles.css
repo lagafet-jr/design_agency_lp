@@ -67,11 +67,13 @@ header {
 
 .color-brown-underline {
   color: #E3B873;
-  text-decoration: underline;
+  border-bottom: 1px solid #E3B873;
+  padding-bottom: 6.68px;
 }
 
 .color-gray {
   color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 6.68px;
 }
 
 .margin-left {
@@ -160,31 +162,42 @@ header {
   margin-bottom: 41px;
 }
 
-.projects {
-  width: 100%;
-  height: 1074px;
+.container-projects {
   background: #131313;
+  width: 100%;
+}
+
+.projects {
+  width: 1171px;
+  height: 552.28px;
+  margin: 0 auto;
+  padding-bottom: 414.72px;
+}
+
+.projects-header {
+  padding-top: 107px;
+  padding-bottom: 52.68px;
+}
+
+.project-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .progects-row {
-  width: 1171px;
-  height: 552.28px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   flex-grow: 0;
   flex-shrink: 0;
   flex-wrap: nowrap;
   margin: 0 auto;
 }
 
-.progects-1 {
-  width: 492px;
-}
-
-.projects-2 {
-  width: 679px;
+.progects-half {
+  width: 50%;
 }
 
 .project-img {
@@ -200,6 +213,7 @@ header {
   line-height: 37px;
   letter-spacing: -0.07em;
   text-transform: uppercase;
+  margin-bottom: 34px;
 }
 
 .project-about {
@@ -209,13 +223,17 @@ header {
   font-size: 14px;
   line-height: 27px;
   color: #FFFFFF;
+  margin-bottom: 42px;
 }
 
 .project-params {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.project-params div {
+  width: 50%;
+  margin-bottom: 34px;
 }
 
 .project-params h3 {
@@ -237,12 +255,6 @@ header {
   color: #FFFFFF;
 }
 
-.project-nav {
-  display: flex;
-  justify-content: flex-start;
-  padding-bottom: 45px;
-}
-
 .project-nav a {
   font-family: Yeseva One;
   font-style: normal;
@@ -251,7 +263,6 @@ header {
   line-height: 19px;
   text-transform: uppercase;
   text-decoration: none;
-  text-align: center;
-  margin-right: auto;
+  margin-left: 60.5px;
 }
 
