@@ -185,6 +185,17 @@ header {
   align-items: center;
 }
 
+.project-nav a {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 60.5px;
+}
+
 .progects-row {
   display: flex;
   flex-direction: row;
@@ -255,14 +266,40 @@ header {
   color: #FFFFFF;
 }
 
-.project-nav a {
-  font-family: Yeseva One;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-left: 60.5px;
+.project-slider {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 70px;
 }
 
+.project-slider button:nth-child(2) {
+  background: #FFFFFF !important;
+}
+
+.project-slider button:first-child {
+  width: 41px;
+  height: 13px;
+  margin-right: 29px;
+  padding: 0;
+  border: none;
+  background: url(../images/arrow-left.svg);
+}
+
+.project-slider button:not(:first-child):not(:last-child) {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border: none;
+  margin-right: 17.54px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.project-slider button:last-child {
+  width: 41px;
+  height: 13px;
+  margin-left: 11.46px;
+  padding: 0;
+  border: none;
+  background: url(../images/arrow-right.svg);
+}
