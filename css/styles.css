@@ -165,13 +165,14 @@ header {
 .container-projects {
   background: #131313;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .projects {
   width: 1171px;
-  height: 552.28px;
   margin: 0 auto;
-  padding-bottom: 414.72px;
+  padding-bottom: 416px;
 }
 
 .projects-header {
@@ -314,6 +315,12 @@ header {
   margin: 0 auto;
 }
 
+.control-container {
+  margin-top: -324px;
+  z-index: 2;
+  position: relative;
+}
+
 .control-head {
   display: flex;
   flex-direction: column;
@@ -329,7 +336,7 @@ header {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  color: #FFFFFF;
 }
 
 .control-head hr {
