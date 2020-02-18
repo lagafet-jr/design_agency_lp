@@ -390,3 +390,28 @@ header {
   border: none;
   border-radius: 50%;
 }
+
+.control-info {
+  width: 681px;
+  margin: 0 auto;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #363636;
+  margin-bottom: 91.5px;
+}
+.control-info hr {
+  margin-top: 62.5px;
+  margin-bottom: 34.46px;
+  border: 0;
+  width: 55px;
+  height: 1.54px;
+  background: #E3B873;
+}
+
+.request {
+  
+}
