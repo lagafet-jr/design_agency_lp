@@ -418,46 +418,31 @@ header {
   align-items: center;
 }
 
-.request_item {
+.request-item {
   display: flex;
   flex-direction: column;
 }
 
-.request_label {
+.request-label {
   font-size: 13px;
   line-height: 21px;
   color: rgba(54, 54, 54, 0.5);
 }
 
-.form_dark .form__label{
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.request_input-text {
+.request-input-text {
   padding:8px 0;
   outline: none;
   border: none;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
 }
 
-.form_dark .request_input-text {
-  background: none;
-  color: #FFFFFF;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
-}
-
-.request_input-text::placeholder {
+.request-input-text::placeholder {
   font-size: 14px;
   line-height: 23px;
   color: #000000;
 }
 
-.form_dark .request_input-text::placeholder {
-  color: #ffffff;
-}
-
-
-.request_submit {
+.request-submit {
   width: 200px;
   height: 51px;
   font-family: Nunito Sans;
@@ -473,24 +458,25 @@ header {
   border-radius: 2px;
 }
 
-.checkbox_center {
+.checkbox-center {
   margin-top: 39px;
+  margin-bottom: 76px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.request_label {
+.request-label {
   display: flex;
   align-items: center;
   margin-right: 9px;
 }
 
-.request_checkbox {
+.request-checkbox {
   display: none;
 }
 
-.request_checkmark {
+.request-checkmark {
   position: relative;
   width: 14px;
   height: 14px;
@@ -499,7 +485,7 @@ header {
   background: #E3B873;
 }
 
-.request_checkbox:checked ~ .request_checkmark:after {
+.request-checkbox:checked ~ .request-checkmark:after {
   content: "\2714";
   display: flex;
   align-items: center;
@@ -509,11 +495,150 @@ header {
   color: #fff;
 }
 
-.request_text {
+.request-text {
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 163.68%;
   color: #181818;
+}
+
+.types {
+  width: 100%;
+  background: #FFFFFF;
+}
+
+.types-wrapper {
+  max-width: 1236px;
+  margin: 0 auto;
+}
+
+.types-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.types-head h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 13px;
+}
+
+.types-img hr {
+  border: 0;
+  width: 32px;
+  height: 1.54px;
+  background: #E3B873;
+}
+
+.types-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 31px;
+}
+
+.img-margin {
+  margin-left: 9px;
+  margin-right: 13px;
+}
+
+.types-pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 240px;
+  z-index: 1;
+  position: relative;
+}
+
+.pic {
+  width: 392px;
+  height: 421px;
+}
+
+.types-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.type-list-block {
+  background-color: #fff;
+  width: 330px;
+  height: 286px;
+  position: relative;
+  z-index: 2;
+  margin-top: -430px;
+}
+
+.type-list-block:first-child {
+  margin-left: 31px;
+}
+
+.type-list-block:last-child {
+  margin-right: 31px;
+}
+
+.type-list-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 31px 25px 32px 36px;
+}
+
+.type-list-display h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+  margin-bottom: 13px;
+}
+
+.list {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+}
+
+.list li {
+  list-style-type: disc;
+}
+
+.price {
+  width: 228px;
+  height: 54px;
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  z-index: 3;
+  position: relative;
+  margin-top: -15px;
+}
+
+.price p {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 17px;
 }
