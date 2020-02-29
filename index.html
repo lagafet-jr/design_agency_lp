@@ -117,12 +117,28 @@
               broadcast from one of our facilities!<br> Leave a request below and you will receive a link to the broadcast.
             </p>
           </div>
-          <div class="request">
+          <div>
             <form action="#", method="POST">
-              <input type="text" name="Name" value="What is your name">
-              <input type="text" name="Phone" value="Your phone number:">
-              <input type="submit" value="SUBMIT">
-              <input type="checkbox">I agree to the processing of personal data
+              <div class="request">
+                <div class="request_item">
+                  <label class="request_label">Name</label>
+                  <input type="text" class="request_input-text" placeholder="What is your name:">
+                </div>
+                <div class="request_item">
+                  <label class="request_label">Phone</label>
+                  <input type="text" class="request_input-text" placeholder="Your phone number:">
+                </div>
+                <div>
+                  <input type="submit" class="request_submit" value="SUBMIT">
+                </div>
+              </div>
+              <div class="checkbox_center">
+                <label class="request_label">
+                  <input class="request_checkbox" type="checkbox">
+                  <span class="request_checkmark"></span>
+                </label>
+                <div class="request_text">I agree to the processing of personal data</div>
+              </div>
             </form>
           </div>
         </div>
