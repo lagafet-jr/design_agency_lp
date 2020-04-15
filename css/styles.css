@@ -1017,3 +1017,38 @@ a:nth-child(8) {
 .question-width {
   width: 516px;
 }
+
+.adress {
+  margin-top: 52px;
+  width: 589px;
+  height: 51px;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+
+.social {
+  margin-top: 26px;
+  margin-bottom: 43.29px;
+  width: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-size {
+  width: 925px;
+  height: 465px;
+}
+
+.map-size iframe {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
