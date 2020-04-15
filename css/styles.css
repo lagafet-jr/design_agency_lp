@@ -855,3 +855,91 @@ a:nth-child(8) {
   width: 72px;
   height: 72px;
 }
+
+.clients-wrapper {
+  width: 1236px;
+  height: 1068px;
+  margin: 0 auto;
+}
+
+.clients-margin {
+  margin-top: 71px;
+}
+
+.clients-desc {
+  margin-top: -12px;
+  margin-bottom: 63px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-column {
+  width: 376px;
+  height: 428px;
+  display: flex;
+  flex-direction: column;
+}
+
+.client-head {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.client-photo {
+  border-radius: 50%;
+}
+
+.client-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #181818;
+}
+
+.feedback-text {
+  max-width: 324px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color: #959595;
+}
+
+.feedback-about {
+  margin-top: 63px;
+  width: 293.75px;
+  height: 54px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #E3B873;
+  box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.feedback-about p {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
