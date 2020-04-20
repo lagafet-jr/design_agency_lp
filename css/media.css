@@ -27,10 +27,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   .project-about {
     order: 1;
+    max-width: 768px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,5 +100,253 @@
     height: 100%;
     margin-top: 0px;
   }
+}
 
+@media screen and (max-width: 768px) {
+
+  .header-nav a:nth-child(n+2):nth-child(-n+7),
+  .header-nav button,
+  .img-laptop,
+  .projects-header,
+  .adress,
+  .social,
+  .footer {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 23px 18px 22px;
+  }
+
+  .header-nav a {
+    margin-right: 0px;
+  }
+
+  .intro {
+    height: 476px;
+  }
+
+  .intro-wrap {
+    max-width: 375px;
+  }
+
+  .intro-1-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 476px;
+    margin-left: 18px;
+  }
+
+  .intro-text {
+    font-size: 23px;
+    line-height: 31px;
+  }
+
+  .intro-info {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .mobile-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .intro-btn {
+    width: 338px;
+    height: 51px;
+    padding: 0px;
+    border: 1px solid #FFFFFF;
+    margin-right: 0px;
+    box-sizing: border-box;
+    margin-bottom: 26px;
+  }
+
+  .project-txt {
+    padding-top: 36px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .project-about {
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    max-width: 311px;
+    margin: 22px 32px 36px;
+  }
+
+  .project-params {
+    width: 341px;
+    height: 145px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project-params p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .project-params h3 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .project-img {
+    width: 340px;
+    height: 241.35px;
+  }
+
+  .control-wrapper {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  .control {
+    background-color: black;
+  }
+
+  .video {
+    width: 340px;
+    height: 207px;
+    margin: 0 auto;
+  }
+
+  .video-btn {
+    width: 37px;
+    height: 37px;
+  }
+
+  .play-mobile {
+    width: 12px;
+    height: 12px;
+  }
+
+  .control-info {
+    width: 340px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    margin-bottom: 61px;
+  }
+
+  .request {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .request-item {
+    width: 340px;
+    margin-bottom: 60px;
+  }
+
+  .request-label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .request-input-text {
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid white;
+  }
+
+  .request-input-text::placeholder {
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+  }
+
+  .request-submit {
+    width: 340px;
+  }
+
+  .request-text {
+    color: white;
+  }
+
+  .types-wrapper {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .types-block {
+    width: 340px;
+  }
+
+  .pic {
+    width: 340px;
+    height: 365px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .types-mobile-img {
+    width: 340px;
+    height: 365px;
+  }
+
+  .type-list-block {
+    background-color: #fff;
+    width: 270px;
+    margin-left: 0px;
+  }
+
+  .questions-wrap {
+    width: 375px;
+  }
+
+  .questions-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+  }
+
+  .questions h2 {
+    margin-bottom: 52px;
+  }
+
+  .row-width {
+    width: 340px;
+    margin-bottom: 63px;
+  }
+
+  .question-width {
+    width: 340px;
+    margin-bottom: 22px;
+  }
+
+  .call-checkbox {
+    margin-bottom: 67px;
+  }
+
+  .map-size {
+    width: 340px;
+    height: 255px;
+    padding-top: 160px;
+  }
+
+  .map-back {
+    background-color: black;
+  }
 }

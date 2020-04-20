@@ -236,6 +236,11 @@ a:nth-child(8) {
   height: 482px;
 }
 
+.img-mobile {
+  width: 340px;
+  height: 241.35px;
+}
+
 .project-txt {
   font-family: Yeseva One;
   font-style: normal;
@@ -260,6 +265,7 @@ a:nth-child(8) {
 .project-params {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .project-params div {
@@ -959,7 +965,7 @@ a:nth-child(8) {
 
 .questions {
   margin-top: -222.66px;
-  background: #181818;
+  background: #000000;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
   width: 883px;
   height: 446px;
