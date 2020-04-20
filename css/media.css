@@ -1,3 +1,9 @@
+@media screen and (min-width: 1300px) {
+  .img-mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .header-nav a:nth-child(n+2):nth-child(-n+7) {
     display: none;
@@ -14,7 +20,8 @@
   .project-nav,
   .call-container,
   .pig,
-  .clients-wrapper {
+  .clients-wrapper,
+  .img-mobile {
     display: none;
   }
 
@@ -170,6 +177,15 @@
     margin-bottom: 26px;
   }
 
+  .intro-btn:hover {
+    width: 338px;
+    height: 51px;
+    padding: 0px;
+    border: 0px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  }
+
   .project-txt {
     padding-top: 36px;
     font-size: 22px;
@@ -204,6 +220,11 @@
   }
 
   .project-img {
+    width: 340px;
+    height: 241.35px;
+  }
+
+  .img-mobile {
     width: 340px;
     height: 241.35px;
   }
@@ -345,6 +366,8 @@
     height: 255px;
     padding-top: 160px;
   }
+
+  .map-size iframe {}
 
   .map-back {
     background-color: black;
