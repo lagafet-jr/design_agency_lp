@@ -174,7 +174,7 @@ a:nth-child(8) {
 }
 
 .container-projects {
-  background: #131313;
+  background: black;
   width: 100%;
   position: relative;
   z-index: 1;

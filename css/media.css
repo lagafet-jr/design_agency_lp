@@ -1,7 +1,11 @@
 @media screen and (min-width: 769px) {
 
   .img-mobile,
-  .checkbox-center-mobile {
+  .checkbox-center-mobile,
+  .left-arrow-mobile,
+  .right-arrow-mobile,
+  .social-mobile,
+  .social-mobile br {
     display: none;
   }
 
@@ -261,6 +265,20 @@
     margin: 0 auto;
   }
 
+  .left-arrow-mobile {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    left: 50px;
+  }
+
+  .right-arrow-mobile {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    right: 50px;
+  }
+
   .control-wrapper {
     width: 375px;
     margin: 0 auto;
@@ -418,4 +436,31 @@
   .map-back {
     background-color: black;
   }
+
+  .adress-mobile {
+    width: 340px;
+    height: 70.56px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+
+  .social-img-mobile {
+    margin-top: 26px;
+    margin-bottom: 43.29px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-img-mobile img {
+    margin: 0px 10px 0px 10px;
+  }
+
 }
